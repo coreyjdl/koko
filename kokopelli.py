@@ -21,3 +21,4 @@ index_of_today = results.index(today)
 with open('koko', 'w') as file:
   for item in results[index_of_today: index_of_today + 4]:
     file.write(f"{item}<br />")
+
